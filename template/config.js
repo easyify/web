@@ -13,5 +13,9 @@ module.exports = {
             API: ''
         }
     },
-    vendor:[]
+    vendor:[
+        {{#jQuery}}
+        'jquery'
+        {{/jQuery}}
+    ]
 }
