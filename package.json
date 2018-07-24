@@ -1,11 +1,11 @@
 {
-  "name": "web-workflow-cli-template-web",
+  "name": "easyify-cli-template-h5-multi",
   "version": "1.0.0",
   "license": "MIT",
   "description": "A full-featured for normal H5 web setup.",
   "scripts": {
   },
   "devDependencies": {
-    "web-workflow-cli": "^1.0.3"
+    "easyify-cli": "^1.0.3"
   }
 }
