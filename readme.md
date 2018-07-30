@@ -2,6 +2,6 @@
 
 ``` bash
 $ npm install -g easyify-cli
-$ easyify init H5-multi my-project
+$ easyify init web my-project
 $ cd my-project
 ```

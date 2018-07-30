@@ -25,6 +25,10 @@ module.exports = {
       required: false,
       message: 'Author'
     },
+    multi: {
+      type: 'confirm',
+      message: 'Is a multi-page application?'
+    },
     title: {
       type: 'string',
       message: 'home page title',
@@ -43,7 +47,11 @@ module.exports = {
       message: 'Use GA analytics?'
     }
   },
-  filters: {},
+  filters: {
+    filters: {
+      'pages/**/*': 'multi'
+    },
+  },
   completeMessage:
     'You can edit your code ASAP!\n\n Enjoy your life!~~'
 };
