@@ -1,6 +1,6 @@
 module.exports = {
   helpers: {
-    if_or: function(v1, v2, options) {
+    if_or: function (v1, v2, options) {
       if (v1 || v2) {
         return options.fn(this);
       }
@@ -48,10 +48,7 @@ module.exports = {
     }
   },
   filters: {
-    filters: {
-      'pages/**/*': 'multi'
-    },
+    'pages/**/*': 'multi'
   },
-  completeMessage:
-    'You can edit your code ASAP!\n\n Enjoy your life!~~'
+  completeMessage: 'You can edit your code ASAP!\n\n Enjoy your life!~~'
 };
